@@ -8,19 +8,35 @@
 h1 {
     background-color: rgba(202, 238, 240, 0.822);
     font-family: 'Brush Script MT', cursive;
-    text-align: center;
     font-size: 50px;
+    text-align: center;
+    margin: auto;
+    padding: 8px 24px;
+}
+
+.title-highlight {
+    border: 5px solid black;
+    padding: 5px;
+    display: inline-block;
 }
 
 img {
     height: auto;
     width: 400;
+    display: block;
+    background-color: black;
+    padding: 8px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 h3 {
     background-color: rgba(80, 127, 255, 0.747);
     color: rgb(26, 26, 26);
     font-family: "Lucida Console", monospace;
+    display: inline;
+    padding: 6px;
+
 }
 
 p {
@@ -32,11 +48,15 @@ ul,
 ol {
     font-size: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 2%;
+    width: auto;
 }
+
 
 .return-button {
     background-color: rgba(0, 0, 255, 0.363);
     color: rgb(26, 26, 26);
     font-size: 18px;
+    padding: 3px;
     
 }
